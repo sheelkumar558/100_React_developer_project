@@ -1,11 +1,11 @@
 # 100_React_developer_project
 
-###### React_developer_target_100_projects
+###### -: React_developer_target_100_projects
 
-###### TEch_stack -: HTML , CSS , JAVASCRIPT , REACTJS , REDUX , CHAKRAUI , MATERIALUI .........
+###### -: TEch_stack -: HTML , CSS , JAVASCRIPT , REACTJS , REDUX , CHAKRAUI , MATERIALUI .........
 
-##### Google Search Bar app (search any name)
+##### -: Google Search Bar app (search any name)
 
-##### Infinity scroll
+##### -: Infinity scroll
 
-##### Country app (add country name,city,population , sorting , filltring , deleting , editing)
+##### -: Country app (add country name,city,population , sorting , filltring , deleting , editing)
