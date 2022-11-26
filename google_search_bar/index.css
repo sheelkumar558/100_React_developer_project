@@ -1,0 +1,55 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    align-content: center;
+  }
+  input {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  #showSuggestions {
+    max-height: 20rem;
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 45%;
+    margin-top: 1rem;
+    border: 1px solid gray;
+    padding: 1rem;
+    border-radius: 5px;
+    display: none;
+  }
+  .countryName:hover {
+    background-color: rgb(69, 69, 255);
+    color: white;
+    cursor: pointer;
+  }
+  .countryName {
+    padding: 1rem;
+    width: auto;
+  }
+  .inputDiv {
+    position: relative;
+    width: 50%;
+  }
+  .clear {
+    position: absolute;
+    padding: 4px;
+    bottom: -5px;
+    right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .clear:hover {
+    background-color: rgb(184, 55, 55);
+    color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
