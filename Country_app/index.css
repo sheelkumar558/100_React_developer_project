@@ -1,0 +1,69 @@
+body {
+    background-image: linear-gradient(to right, rgb(168, 103, 221), rgb(11, 204, 218));
+  }
+  
+  thead td {
+    border: 1px solid black;
+    width: 12rem;
+    text-align: center;
+    background-color: rgb(76, 146, 146);
+  }
+  .main {
+    margin: auto;
+    margin-left: 32%;
+  }
+  .main input,
+  select {
+    padding: 0.5rem;
+  }
+  .main input:nth-child(4) {
+    background-color: aquamarine;
+    border-radius: 0.5rem;
+  }
+  td {
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+  }
+  .table {
+    margin: auto;
+  }
+  .editForm {
+    display: none;
+    margin-left: 25%;
+  }
+  .editForm > input {
+    padding: 0.5rem;
+  }
+  .editForm button {
+    padding: 0.5rem;
+    background-color: aquamarine;
+    border-radius: 0.5rem;
+  }
+  .edit {
+    background-color: rgb(83, 228, 184);
+    border-radius: 0.5rem;
+  }
+  .delete {
+    background-color: rgb(236, 89, 89);
+    border-radius: 0.5rem;
+  }
+  .table {
+    margin-top: 10rem;
+  }
+  .sort {
+    display: flex;
+    position: absolute;
+    top: 160px;
+    left: 85px;
+  }
+  .sort button {
+    padding: 0.5rem;
+    background-color: aquamarine;
+    border-radius: 0.5rem;
+    margin-right: 5px;
+  }
+  .sort input:nth-child(2) {
+    margin: 5px;
+    padding: 0.5rem;
+  }
