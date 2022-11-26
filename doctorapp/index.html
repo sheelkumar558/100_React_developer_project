@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Masai Doctor Records</title>
+  </head>
+  <body>
+    <!-- Use this form for data input  -->
+    <form onsubmit="doctorFun(event)">
+      <input placeholder="Name" type="text" id="name" />
+      <input placeholder="Doctor ID" type="text" id="doctor_id" />
+      <select id="specialization">
+        <option value="">Select Specialization</option>
+        <option value="Dermatologist">Dermatologist</option>
+        <option value="Dentist">Dentist</option>
+        <option value="Gynecologist">Gynecologist</option>
+      </select>
+      <input placeholder="Experience" type="number" id="experience" />
+      <input placeholder="Email" type="email" id="email" />
+      <input placeholder="Mobile No." type="number" id="mobile" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <!-- Use this Select tag for filter part  -->
+    <select id="filter">
+      <option value="">Select Specialization</option>
+      <option value="Dermatologist">Dermatologist</option>
+      <option value="Dentist">Dentist</option>
+      <option value="Gynecologist">Gynecologist</option>
+    </select>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Doctor ID</th>
+          <th>Specialization</th>
+          <th>Experience in Years</th>
+          <th>Email</th>
+          <th>Mobile No</th>
+          <th>Role</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Append Rows here using JS & DOM  -->
+      </tbody>
+    </table>
+  </body>
+
+  <script>
+    let data = document.getElementsByTagName("tbody");
+
+    let storeData = JSON.parse(localStorage.getItem("doctorData")) || [];
+    // console.log(storeData);
+
+    function doctorFun(event) {
+      event.preventDefault();
+      let name = document.getElementById("name").value;
+      let id = document.getElementById("doctor_id").value;
+      let spec = document.getElementById("specialization").value;
+      let exec = document.getElementById("experience").value;
+      let email = document.getElementById("email").value;
+      let mob = document.getElementById("mobile").value;
+
+      let bag = {
+        name: name,
+        Doctor_ID: id,
+        Specialization: spec,
+        Experience_in_years: exec,
+        Email_address: email,
+        Mobile_Number: mob,
+      };
+
+      //  console.log(bag);
+
+      storeData.push(bag);
+
+      localStorage.setItem("doctorData", JSON.stringify(storeData));
+
+      showData(storeData);
+    }
+
+    showData(storeData);
+
+    function showData(storeData) {
+      data[0].innerHTML = "";
+      storeData &&
+        storeData.map((e, index) => {
+          let tr = document.createElement("tr");
+          let td1 = document.createElement("td");
+          let td2 = document.createElement("td");
+          let td3 = document.createElement("td");
+          let td4 = document.createElement("td");
+          let td5 = document.createElement("td");
+          let td6 = document.createElement("td");
+          let td7 = document.createElement("td");
+          let td8 = document.createElement("td");
+          let td9 = document.createElement("td");
+
+          td1.textContent = e.name;
+          td2.textContent = e.Doctor_ID;
+          td3.textContent = e.Specialization;
+          td4.textContent = e.Experience_in_years;
+          td5.textContent = e.Email_address;
+          td6.textContent = e.Mobile_Number;
+          td7.textContent = e.Specialization;
+          td8.textContent = "Remove";
+          td8.setAttribute("class", "remove");
+          td8.addEventListener("click", () => removeData(index));
+
+          tr.append(td1, td2, td3, td4, td5, td6, td7, td8);
+          //  console.log(tr);
+
+          data[0].append(tr);
+        });
+    }
+
+    function removeData(i) {
+      storeData.splice(i, 1);
+      localStorage.setItem("doctorData", JSON.stringify(storeData));
+      showData(storeData);
+    }
+  </script>
+</html>

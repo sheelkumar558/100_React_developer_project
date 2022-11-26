@@ -1,0 +1,15 @@
+#cart {
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(2, 600px);
+  gap: 10px;
+}
+.item {
+  border: 2px solid rgb(133, 173, 206);
+  text-align: center;
+  padding: 5px;
+}
+#img {
+  width: 500px;
+  height: 400px;
+}

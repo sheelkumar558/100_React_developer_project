@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #main {
+      display: grid;
+      width: 80%;
+      grid-template-columns: repeat(4, 300px);
+      row-gap: 1em;
+      column-gap: 1em;
+      text-align: center;
+      justify-content: center;
+      margin: auto;
+      font-family: sans-serif;
+    }
+    img {
+      height: 250px;
+      width: 100%;
+      border-radius: 10px;
+    }
+    #box {
+      border: 1px solid black;
+      border-radius: 10px;
+      font-size: 15px;
+      background-color: aliceblue;
+      line-height: 5px;
+    }
+  </style>
+  <body>
+    <div id="fil">
+      <div>
+        <select name="" id="sortPrice">
+          <option value="asc">Low to High</option>
+          <option value="desc">High to Low</option>
+        </select>
+        <br />
+        <select name="" id="sortRating">
+          <option value="asc">Low to High</option>
+          <option value="desc">High to Low</option>
+        </select>
+        <!-- <button onclick="sort()">Sort</button> -->
+      </div>
+      <div>
+        <select name="" id="cate">
+          <option value="ethnic">Ethnic</option>
+          <option value="fine_dining">fine dining</option>
+          <option value="fast_food">Fast food</option>
+          <option value="cafe">Cafe</option>
+          <option value="casual_dining">Casual dining</option>
+        </select>
+      </div>
+      <button><a href="/index.html">Logout</a></button>
+    </div>
+    <div id="main"></div>
+  </body>
+</html>
+<script>
+  masaiRest();
+
+  var valPrice = document.getElementById("sortPrice").value;
+  var valRating = document.getElementById("sortRating").value;
+  var cate = document.getElementById("cate").value;
+  async function masaiRest() {
+    try {
+      let res = await fetch(
+        `https://dbioz2ek0e.execute-api.ap-south-1.amazonaws.com/mockapi/getrestaurants?
+        page=1&limit=20&filter=${cate}`
+      );
+      let mydata = await res.json();
+      console.log(mydata.data);
+      appendData(mydata.data);
+    } catch (error) {
+      console.log("error", error);
+    }
+  }
+
+  let main = document.getElementById("main");
+
+  function appendData(data) {
+    main.innerHTML = "";
+    data.forEach((el) => {
+      let box = document.createElement("div");
+      box.setAttribute("id", "box");
+      let image = document.createElement("img");
+      image.src = el.image;
+      let title = document.createElement("p");
+      title.textContent = `Titile:${el.name}`;
+      let price = document.createElement("p");
+      price.textContent = `price:${el.price_starts_from} `;
+      let rating = document.createElement("p");
+      rating.textContent = `Rating: ${el.rating}❤`;
+      let type = document.createElement("p");
+      type.textContent = `Type:${el.type}`;
+
+      box.append(image, title, price, rating, type);
+      main.append(box);
+    });
+  }
+</script>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Dashboard</title>
+    <style>
+      /* Write all necessery styles here  */
+      table,
+      th,
+      td {
+        border: 1px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="create">
+      <h1>Hire a new Employee</h1>
+      <form id="form">
+        <input placeholder="Employee Name" id="name" type="text" />
+        <select id="job">
+          <option value="">Select Job Role</option>
+          <option value="SDE-1">SDE-1</option>
+          <option value="SDE-2">SDE-2</option>
+          <option value="HR Manager">HR Manager</option>
+          <option value="SEO Specialist">SEO Specialist</option>
+          <option value="CA">CA</option>
+        </select>
+        <select id="department">
+          <option value="">Select Department</option>
+          <option value="Engineering">Engineering</option>
+          <option value="HR">HR</option>
+          <option value="Marketing">Marketing</option>
+          <option value="Finance">Finance</option>
+        </select>
+        <input type="number" id="salary" placeholder="Monthly salary" />
+        <input
+          type="number"
+          id="experience"
+          placeholder="Prev Work Experience in Years"
+        />
+        <input placeholder="Contact Email" id="email" type="email" />
+        <input type="submit" value="Hire" />
+      </form>
+    </div>
+    <h1>Total Active Employee:- <span id="total-employee">0</span></h1>
+    <h1>Total Cost in Salary:- <span id="total-salary">0</span></h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Employee Name</th>
+          <th>Job Role</th>
+          <th>Department</th>
+          <th>salary</th>
+          <th>Contact Email</th>
+          <th>Work Experience</th>
+          <th>Role Type</th>
+          <th>Fire Employee</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Append all the rows here  -->
+      </tbody>
+    </table>
+  </body>
+  <script src="/script/index.js">
+    // write all your necessery scripts here
+  </script>
+</html>

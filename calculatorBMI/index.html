@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1>BMI Calculator</h1>
+    <input placeholder="Height" type="number" id="height" />
+    <input placeholder="Weight" type="number" id="weight" />
+    <button id="calculate" onclick="myfunc()">Calculate</button>
+    <h1>
+      Your BMI is:- <span id="bmi"></span>, that means you are
+      <span id="status"></span>
+    </h1>
+  </body>
+  <script>
+    function myfunc() {
+      let weight = document.getElementById("weight").value;
+      let height = document.getElementById("height").value;
+      let a = "";
+      let BMI = (weight / Math.pow(height, 2)).toFixed(1);
+      if (BMI < 18.5) {
+        a = "UnderWeight";
+      } else if (BMI >= 18.5 && BMI <= 24.9) {
+        a = "Normal Weight";
+      } else if (BMI >= 25 && BMI <= 29.9) {
+        a = "OverWeight";
+      } else if (BMI >= 30) {
+        a = "Obese";
+      }
+      document.getElementById("bmi").innerText = BMI;
+      document.getElementById("status").innerText = a;
+    }
+  </script>
+</html>

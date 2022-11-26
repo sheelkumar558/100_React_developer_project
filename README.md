@@ -4,8 +4,10 @@
 
 ###### -: TEch_stack -: HTML , CSS , JAVASCRIPT , REACTJS , REDUX , CHAKRAUI , MATERIALUI .........
 
-##### -: Google Search Bar app (search any name)
+##### 1-: Google Search Bar app (search any name)
 
-##### -: Infinity scroll
+##### 2-: Infinity scroll
 
-##### -: Country app (add country name,city,population , sorting , filltring , deleting , editing)
+##### 3-: Country app (add country name,city,population , sorting , filltring , deleting , editing)
+
+##### 3-: Note taking app (create new note)

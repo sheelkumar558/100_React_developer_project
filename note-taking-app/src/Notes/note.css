@@ -1,0 +1,30 @@
+.note  {
+ display: inline-block;
+ border: 2px solid red;
+ width: 20%;
+ margin: auto;
+ margin: 1%;
+ padding: 1%;
+ font-family: sans-serif;
+ 
+ background-color: antiquewhite;
+}
+h3{
+    padding: 10px;
+    background-color: rgb(192, 171, 171);
+    color: black;
+}
+p{
+    background: #4CAF50;
+    color: white;
+    padding: 15px;
+    width: 75%;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+}
+
+
+
+
+
