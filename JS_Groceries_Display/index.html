@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/index.css" />
+    <script src="/src/scripts/index.js" defer></script>
+    <title>Home</title>
+  </head>
+  <body>
+    <div id="navbar">
+      <div class="a">login</div>
+      <div class="a">Sign-Up</div>
+      <div class="a">Items</div>
+      <!-- - Navbar should have cart link with Id :- “go_to_cart” -->
+      <a class="a" href="/cart.html" id="go_to_cart">Cart - </a>
+      <!-- - Count div Id :- “item_count” -->
+      <div id="item_count">0</div>
+      <!-- item_count should contain only number do not add any extra text -->
+    </div>
+
+    <div>
+      <!-- - Append the items inside div with Id : “items”
+      - Item card will have class : "item"
+      - Add to cart button with class :- “add_to_cart” -->
+      <div id="items"></div>
+    </div>
+  </body>
+</html>

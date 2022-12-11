@@ -1,0 +1,38 @@
+.cont{
+    margin: auto;
+    border: 2px solid red;
+    width: 400px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: 0 0 2.5px 0 rgba(0, 0, 0, .1);
+    padding: 10px;
+}
+    h4 {
+      margin: 0 0 15px 0;
+    }
+
+    div {
+      margin-bottom: 15px;
+      position: relative;
+    }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      input,
+      textarea {
+        box-sizing: content-box;
+        padding: 5px 0;
+        border: 1px solid #ccc;
+        width: 100%;
+        text-indent: 5px;
+      }

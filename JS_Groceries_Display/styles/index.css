@@ -1,0 +1,27 @@
+#navbar {
+  display: flex;
+  font-family: sans-serif;
+  justify-content: flex-end;
+  padding: 10px;
+  background-color: rgb(212, 233, 233);
+  margin-bottom: 10px;
+}
+.a {
+  padding-left: 20px;
+}
+
+#items {
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(4, 320px);
+  gap: 10px;
+}
+.item {
+  border: 2px solid rgb(133, 173, 206);
+  text-align: center;
+  padding: 5px;
+}
+#img {
+  width: 310px;
+  height: 200px;
+}

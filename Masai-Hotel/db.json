@@ -1,0 +1,37 @@
+{
+  "rooms": [
+    {
+      "category": "suit",
+      "image_url": "https://www.zenrooms.com/img/social_share_room.jpg",
+      "type_of_room": "AC",
+      "bed_type": "Single",
+      "no_of_persons": "1",
+      "capacity": "2",
+      "cost": "999",
+      "booked": false,
+      "id": 5
+    },
+    {
+      "category": "family",
+      "image_url": "https://assets-global.website-files.com/5c6d6c45eaa55f57c6367749/624b471bdf247131f10ea14f_61d31b8dbff9b500cbd7ed32_types_of_rooms_in_a_5-star_hotel_2_optimized_optimized.jpeg",
+      "type_of_room": "AC",
+      "bed_type": "Double",
+      "no_of_persons": "4",
+      "capacity": "6",
+      "cost": "1299",
+      "booked": false,
+      "id": 6
+    },
+    {
+      "category": "duluxe",
+      "image_url": "https://imageio.forbes.com/specials-images/imageserve/5cdb058a5218470008b0b00f/Nobu-Ryokan-Malibu/0x0.jpg?format=jpg&height=1009&width=2000",
+      "type_of_room": "Non-AC",
+      "bed_type": "Double",
+      "no_of_persons": "2",
+      "capacity": "4",
+      "cost": "999",
+      "booked": false,
+      "id": 7
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "posts": [
+      {
+        "country": "India",
+        "city": "PUNE",
+        "population": "33255555",
+        "id": 2
+      },
+      {
+        "country": "USA",
+        "city": "mumbai",
+        "population": "5",
+        "id": 3
+      },
+      {
+        "country": "UK",
+        "city": "pune",
+        "population": "111",
+        "id": 4
+      }
+    ]
+  }

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <div>
+        <h1>Register Page</h1>
+        <form>
+          <input type="email" id="email" placeholder="Enter Email..." /><br />
+          <input
+            type="password"
+            id="pass"
+            placeholder="Enter password..."
+          /><br />
+        </form>
+        <button onclick="register()">Register</button>
+      </div>
+      <div>
+        <h1>Login Page</h1>
+        <form>
+          <input type="email" id="lemail" placeholder="Enter Email..." /><br />
+          <input
+            type="password"
+            id="lpass"
+            placeholder="Enter password..."
+          /><br />
+        </form>
+        <button onclick="login()">Login</button>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  let register = async () => {
+    try {
+      let res_data = {
+        email: document.getElementById("email").value,
+        password: document.getElementById("pass").value,
+      };
+      res_data = JSON.stringify(res_data);
+      let res = await fetch("https://reqres.in/api/register", {
+        method: "POST",
+        body: res_data,
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      let data = await res.json();
+      console.log("data", data);
+    } catch (error) {
+      console.log("error", error);
+    }
+  };
+  let login = async () => {
+    try {
+      let res_data = {
+        email: document.getElementById("lemail").value,
+        password: document.getElementById("lpass").value,
+      };
+      res_data = JSON.stringify(res_data);
+      let res = await fetch("https://reqres.in/api/login", {
+        method: "POST",
+        body: res_data,
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      let data = await res.json();
+      console.log("data", data);
+    } catch (error) {
+      console.log("error", error);
+    }
+  };
+</script>

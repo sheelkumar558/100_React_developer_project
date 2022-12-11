@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country Finder</title>
+    <style>
+      /* Write all necessery css here  */
+      #all_countries {
+        display: grid;
+        margin: auto;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        padding: 20px;
+        text-align: start;
+        font-family: sans-serif;
+      }
+      #divCont {
+        margin-left: 30px;
+      }
+      #main {
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <select id="sort_population" onchange="sortFun()">
+      <option value="">Sort By Population</option>
+      <option value="asc">ASC</option>
+      <option value="desc">DESC</option>
+    </select>
+    <select id="filter_region" onchange="filterFun()">
+      <option value="all">Filter By Region</option>
+      <option value="region/Africa">Africa</option>
+      <option value="region/Americas">Americas</option>
+      <option value="region/Asia">Asia</option>
+      <option value="region/Europe">Europe</option>
+      <option value="region/Oceania">Oceania</option>
+    </select>
+    <div id="all_countries">
+      <!-- Append Country Cards here  -->
+    </div>
+  </body>
+  <script>
+    let all = document.getElementById("all_countries");
+    countryFun();
+    async function countryFun() {
+      let data = await fetch("https://restcountries.com/v3.1/all");
+
+      let fetchdata = await data.json();
+      //console.log(fetchdata);
+
+      fetchData(fetchdata);
+    }
+
+    async function sortFun() {
+      var selected = document.getElementById("sort_population").value;
+
+      let data = await fetch(`https://restcountries.com/v3.1/all`);
+
+      let fetchdata = await data.json();
+      if (selected == "asc") {
+        fetchdata.sort(function (a, b) {
+          return a.population - b.population;
+        });
+      } else {
+        fetchdata.sort(function (a, b) {
+          return b.population - a.population;
+        });
+      }
+      fetchData(fetchdata);
+      console.log(fetchdata);
+    }
+
+    async function filterFun() {
+      let filterValue = document.getElementById("filter_region").value;
+
+      let data = await fetch(`https://restcountries.com/v3.1/${filterValue}`);
+
+      let fetchdata = await data.json();
+      // console.log(fetchdata);
+      fetchData(fetchdata);
+    }
+
+    function fetchData(data) {
+      all.innerHTML = "";
+      data.forEach((e) => {
+        //console.log(e);
+        let main = document.createElement("div");
+        main.setAttribute("id", "main");
+        let div = document.createElement("div");
+        let divCont = document.createElement("div");
+        divCont.setAttribute("id", "divCont");
+        let png = document.createElement("img");
+        png.src = e.flags.png;
+        let name = document.createElement("h3");
+        name.innerText = e.name.common;
+        let population = document.createElement("p");
+        population.innerText = `Population: ${e.population}`;
+        let region = document.createElement("p");
+        region.innerText = `Region: ${e.region}`;
+        let capital = document.createElement("p");
+        capital.innerText = `Capital: ${e.capital}`;
+        div.append(png);
+        divCont.append(name, population, region, capital);
+        main.append(div, divCont);
+        all.append(main);
+      });
+    }
+  </script>
+</html>
