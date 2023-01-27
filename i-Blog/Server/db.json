@@ -1,0 +1,172 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Your most unhappy customers are your greatest source of learning.",
+      "sub_title": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      "thumbnail_pic": "https://images.unsplash.com/photo-1591035897819-f4bdf739f446?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGhhcHB5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<br />A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.<br />Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.",
+      "author": {
+        "name": "Jai ram ji",
+        "profile_pic": "https://cdn-icons-png.flaticon.com/128/1864/1864593.png",
+        "publish_date": "12/24/2022"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Your most unhappy customers are your greatest source of learning.",
+      "sub_title": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      "thumbnail_pic": "https://images.unsplash.com/photo-1654896887944-691330f7dac7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1400&q=60",
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<br />A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.<br />Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.",
+      "author": {
+        "name": "Masai School",
+        "profile_pic": "https://images.unsplash.com/photo-1474447976065-67d23accb1e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60",
+        "publish_date": "11/06/2022"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Your most unhappy customers are your greatest source of learning.",
+      "sub_title": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      "thumbnail_pic": "https://images.unsplash.com/photo-1654885506947-fe5280d8e0ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1400&q=60",
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<br />A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.<br />Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.",
+      "author": {
+        "name": "Masai School",
+        "profile_pic": "https://images.unsplash.com/photo-1644982647844-5ee1bdc5b114?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MTV8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60",
+        "publish_date": "11/06/2022"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Your most unhappy customers are your greatest source of learning.",
+      "sub_title": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      "thumbnail_pic": "https://images.unsplash.com/photo-1654881212180-86af196fd8dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=60",
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<br />A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.<br />Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.",
+      "author": {
+        "name": "Masai School",
+        "profile_pic": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60",
+        "publish_date": "11/06/2022"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Your most unhappy customers are your greatest source of learning.",
+      "sub_title": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      "thumbnail_pic": "https://images.unsplash.com/photo-1654892968823-ea564870a96f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=60",
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<br />A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.<br />Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.",
+      "author": {
+        "name": "Masai School",
+        "profile_pic": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60",
+        "publish_date": "11/06/2022"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Your most unhappy customers are your greatest source of learning.",
+      "sub_title": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      "thumbnail_pic": "https://images.unsplash.com/photo-1654895496721-3f638c3a4c2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=60",
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<br />A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.<br />Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.",
+      "author": {
+        "name": "Masai School",
+        "profile_pic": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60",
+        "publish_date": "11/06/2022"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Your most unhappy customers are your greatest source of learning.",
+      "sub_title": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      "thumbnail_pic": "https://images.unsplash.com/photo-1654886611366-72d5bc6be7c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyN3x8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=60",
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<br/>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.",
+      "author": {
+        "name": "Masai School",
+        "profile_pic": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60",
+        "publish_date": "11/06/2022"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Your most unhappy customers are your greatest source of learning.",
+      "sub_title": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      "thumbnail_pic": "https://images.unsplash.com/photo-1654802321555-c596f69658aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2OHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=60",
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<br/>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.",
+      "author": {
+        "name": "Masai School",
+        "profile_pic": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60",
+        "publish_date": "11/06/2022"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Your most unhappy customers are your greatest source of learning.",
+      "sub_title": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      "thumbnail_pic": "https://images.unsplash.com/photo-1654868739497-ee031a3d7088?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzOXx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=60",
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<br/>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.",
+      "author": {
+        "name": "Masai School",
+        "profile_pic": "https://images.unsplash.com/photo-1614283233556-f35b0c801ef1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60",
+        "publish_date": "11/06/2022"
+      }
+    },
+    {
+      "id": 10,
+      "title": "Your most unhappy customers are your greatest source of learning.",
+      "sub_title": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      "thumbnail_pic": "https://images.unsplash.com/photo-1654805540365-f5f7c81dfadf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1OHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=60",
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<br/>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.",
+      "author": {
+        "name": "Masai School",
+        "profile_pic": "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60",
+        "publish_date": "11/06/2022"
+      }
+    },
+    {
+      "id": 11,
+      "title": "Your most unhappy customers are your greatest source of learning.",
+      "sub_title": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      "thumbnail_pic": "https://images.unsplash.com/photo-1654802321549-c14a7496d991?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=60",
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<br/>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.",
+      "author": {
+        "name": "Masai School",
+        "profile_pic": "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60",
+        "publish_date": "11/06/2022"
+      }
+    },
+    {
+      "id": 12,
+      "title": "Hindu",
+      "sub_title": "About Sanatan Dharma",
+      "thumbnail_pic": "https://images.unsplash.com/photo-1631879742133-a0dd6180abf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGluZHUlMjBjdWx0dXJlJTIwaW1hZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+      "description": "सनातन धर्म अपने हिंदू धर्म के वैकल्पिक नाम से भी जाना जाता है। वैदिक काल में भारतीय उपमहाद्वीप के धर्म के लिये 'सनातन धर्म' नाम मिलता है। 'सनातन' का अर्थ है - शाश्वत या 'सदा बना रहने वाला', अर्थात् जिसका न आदि है न अन्त।सनातन धर्म मूलतः भारतीय धर्म है, जो किसी समय पूरे बृहत्तर भारत तक व्याप्त रहा है। विकिपीडिया",
+      "author": {
+        "name": "Masai School",
+        "profile_pic": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60",
+        "publish_date": "7/16/2022"
+      }
+    },
+    {
+      "title": "कलम, आज उनकी जय बोल",
+      "sub_title": "रामधारी सिंह दिनकर साहित्य के वह सशक्त हस्ताक्षर हैं जिनकी कलम में दिनकर यानी सूर्य के समान चमक थी। उनकी कविताएं सिर्फ़ उनके समय का सूरज नहीं हैं बल्कि उसकी रौशनी से पीढ़ियां प्रकाशमान होती हैं। ",
+      "thumbnail_pic": "https://spiderimg.amarujala.com/assets/images/2019/09/22/750x506/ramdhari-singh-dinkar_1569138861.jpeg",
+      "description": "सदियों की ठण्डी-बुझी राख सुगबुगा उठी\nमिट्टी सोने का ताज पहन इठलाती है\nदो राह, समय के रथ का घर्घर-नाद सुनो\nसिंहासन खाली करो कि जनता आती है \n \nजनता ? हाँ, मिट्टी की अबोध मूरतें वही\nजाड़े-पाले की कसक सदा सहनेवाली \nजब अँग-अँग में लगे साँप हो चूस रहे\nतब भी न कभी मुँह खोल दर्द कहनेवाली \n\nजनता ? हाँ, लम्बी-बडी जीभ की वही कसम\n\"जनता,सचमुच ही, बडी वेदना सहती है।\" \n\"सो ठीक, मगर, आखिर, इस पर जनमत क्या है ?\" \n'है प्रश्न गूढ़ जनता इस पर क्या कहती है ?\" \n\nमानो,जनता ही फूल जिसे अहसास नहीं\nजब चाहो तभी उतार सजा लो दोनों में\nअथवा कोई दूधमुँही जिसे बहलाने के \nजन्तर-मन्तर सीमित हों चार खिलौनों में \n\nलेकिन होता भूडोल, बवण्डर उठते हैं\nजनता जब कोपाकुल हो भृकुटि चढाती है\nदो राह, समय के रथ का घर्घर-नाद सुनो\nसिंहासन खाली करो कि जनता आती है \n\nहुँकारों से महलों की नींव उखड़ जाती\nसाँसों के बल से ताज हवा में उड़ता है\nजनता की रोके राह, समय में ताव कहाँ ? \nवह जिधर चाहती, काल उधर ही मुड़ता है \n\nअब्दों, शताब्दियों, सहस्त्राब्द का अन्धकार \nबीता; गवाक्ष अम्बर के दहके जाते हैं\nयह और नहीं कोई, जनता के स्वप्न अजय \nचीरते तिमिर का वक्ष उमड़ते जाते हैं \n\nसब से विराट जनतन्त्र जगत का आ पहुँचा\nतैंतीस कोटि-हित सिंहासन तय करो \nअभिषेक आज राजा का नहीं, प्रजा का है\nतैंतीस कोटि जनता के सिर पर मुकुट धरो \n\nआरती लिए तू किसे ढूँढ़ता है मूरख\nमन्दिरों, राजप्रासादों में, तहखानों में ? \nदेवता कहीं सड़कों पर गिट्टी तोड़ रहे\nदेवता मिलेंगे खेतों में, खलिहानों में \n\nफावड़े और हल राजदण्ड बनने को हैं\nधूसरता सोने से शृँगार सजाती है\nदो राह, समय के रथ का घर्घर-नाद सुनो\nसिंहासन खाली करो कि जनता आती है ",
+      "author": {
+        "name": "Masai School",
+        "profile_pic": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60",
+        "publish_date": "12/24/2022"
+      },
+      "id": 13
+    },
+    {
+      "title": "Rambhadracharya Story",
+      "sub_title": "Rambhadracharya is the founder and head of Tulsi Peeth, a religious and social service institution in Chitrakoot named after Saint Tulsidas.",
+      "thumbnail_pic": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Jagadguru_Rambhadracharya.jpg/330px-Jagadguru_Rambhadracharya.jpg",
+      "description": "Jagadguru Ramanandacharya Swami Rambhadracharya[α][4] (born Pandit Giridhar on 14 January 1950)[β] is an Indian Hindu spiritual leader, educator, Sanskrit scholar, polyglot, poet, author, textual commentator, philosopher, composer, singer, playwright and Katha artist based in Chitrakoot, India.[5] He is one of four incumbent Jagadguru Ramanandacharya,[γ] and has held this title since 1988.[6][7][8]\n\nRambhadracharya is the founder and head of Tulsi Peeth, a religious and social service institution in Chitrakoot named after Saint Tulsidas.[9][10] He is the founder and lifelong chancellor of the Jagadguru Rambhadracharya Handicapped University in Chitrakoot, which offers graduate and postgraduate courses exclusively to four types of disabled students.[5][11][12][13][14] Rambhadracharya has been blind since the age of two months, had no formal education until the age of seventeen years, and has never used Braille or any other aid to learn or compose.[",
+      "author": {
+        "name": "Rambhadracharya",
+        "profile_pic": "https://cdn-icons-png.flaticon.com/128/1864/1864593.png",
+        "publish_date": "12/24/2022"
+      },
+      "id": 14
+    }
+  ]
+}
